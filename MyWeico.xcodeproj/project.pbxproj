@@ -13,6 +13,11 @@
 		27C429311C8FB638002A4DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C4292F1C8FB638002A4DC5 /* Main.storyboard */; };
 		27C429331C8FB638002A4DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C429321C8FB638002A4DC5 /* Assets.xcassets */; };
 		27C429361C8FB638002A4DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C429341C8FB638002A4DC5 /* LaunchScreen.storyboard */; };
+		27C4293F1C8FB98D002A4DC5 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C4293E1C8FB98D002A4DC5 /* MyTabBarViewController.m */; };
+		27C429421C8FBAB0002A4DC5 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C429411C8FBAB0002A4DC5 /* DiscoverViewController.m */; };
+		27C429451C8FBABF002A4DC5 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C429441C8FBABF002A4DC5 /* ProfileViewController.m */; };
+		27C429481C8FBB32002A4DC5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C429471C8FBB32002A4DC5 /* HomeViewController.m */; };
+		27C4294B1C8FBB44002A4DC5 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C4294A1C8FBB44002A4DC5 /* MessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		27C429321C8FB638002A4DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C429351C8FB638002A4DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27C429371C8FB638002A4DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C4293D1C8FB98D002A4DC5 /* MyTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		27C4293E1C8FB98D002A4DC5 /* MyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		27C429401C8FBAB0002A4DC5 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		27C429411C8FBAB0002A4DC5 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		27C429431C8FBABF002A4DC5 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		27C429441C8FBABF002A4DC5 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		27C429461C8FBB32002A4DC5 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		27C429471C8FBB32002A4DC5 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		27C429491C8FBB44002A4DC5 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		27C4294A1C8FBB44002A4DC5 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +82,16 @@
 				27C429341C8FB638002A4DC5 /* LaunchScreen.storyboard */,
 				27C429371C8FB638002A4DC5 /* Info.plist */,
 				27C429261C8FB638002A4DC5 /* Supporting Files */,
+				27C4293D1C8FB98D002A4DC5 /* MyTabBarViewController.h */,
+				27C4293E1C8FB98D002A4DC5 /* MyTabBarViewController.m */,
+				27C429401C8FBAB0002A4DC5 /* DiscoverViewController.h */,
+				27C429411C8FBAB0002A4DC5 /* DiscoverViewController.m */,
+				27C429431C8FBABF002A4DC5 /* ProfileViewController.h */,
+				27C429441C8FBABF002A4DC5 /* ProfileViewController.m */,
+				27C429461C8FBB32002A4DC5 /* HomeViewController.h */,
+				27C429471C8FBB32002A4DC5 /* HomeViewController.m */,
+				27C429491C8FBB44002A4DC5 /* MessageViewController.h */,
+				27C4294A1C8FBB44002A4DC5 /* MessageViewController.m */,
 			);
 			path = MyWeico;
 			sourceTree = "<group>";
@@ -149,8 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C429421C8FBAB0002A4DC5 /* DiscoverViewController.m in Sources */,
+				27C4293F1C8FB98D002A4DC5 /* MyTabBarViewController.m in Sources */,
 				27C4292E1C8FB638002A4DC5 /* ViewController.m in Sources */,
 				27C4292B1C8FB638002A4DC5 /* AppDelegate.m in Sources */,
+				27C429451C8FBABF002A4DC5 /* ProfileViewController.m in Sources */,
+				27C429481C8FBB32002A4DC5 /* HomeViewController.m in Sources */,
+				27C4294B1C8FBB44002A4DC5 /* MessageViewController.m in Sources */,
 				27C429281C8FB638002A4DC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
