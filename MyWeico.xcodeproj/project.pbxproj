@@ -18,6 +18,8 @@
 		27C429451C8FBABF002A4DC5 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C429441C8FBABF002A4DC5 /* ProfileViewController.m */; };
 		27C429481C8FBB32002A4DC5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C429471C8FBB32002A4DC5 /* HomeViewController.m */; };
 		27C4294B1C8FBB44002A4DC5 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C4294A1C8FBB44002A4DC5 /* MessageViewController.m */; };
+		27C429581C8FFA77002A4DC5 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C429571C8FFA77002A4DC5 /* MyTabBar.m */; };
+		27C4295B1C8FFE4D002A4DC5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C4295A1C8FFE4D002A4DC5 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,10 @@
 		27C429471C8FBB32002A4DC5 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		27C429491C8FBB44002A4DC5 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
 		27C4294A1C8FBB44002A4DC5 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		27C429561C8FFA77002A4DC5 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		27C429571C8FFA77002A4DC5 /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		27C429591C8FFE4D002A4DC5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../../MyWeibo/MyWeibo/Class/Main(主要)/Category/UIView+Extension.h"; sourceTree = "<group>"; };
+		27C4295A1C8FFE4D002A4DC5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../../MyWeibo/MyWeibo/Class/Main(主要)/Category/UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,8 @@
 		27C429251C8FB638002A4DC5 /* MyWeico */ = {
 			isa = PBXGroup;
 			children = (
+				27C429591C8FFE4D002A4DC5 /* UIView+Extension.h */,
+				27C4295A1C8FFE4D002A4DC5 /* UIView+Extension.m */,
 				27C429291C8FB638002A4DC5 /* AppDelegate.h */,
 				27C4292A1C8FB638002A4DC5 /* AppDelegate.m */,
 				27C4292C1C8FB638002A4DC5 /* ViewController.h */,
@@ -92,6 +100,8 @@
 				27C429471C8FBB32002A4DC5 /* HomeViewController.m */,
 				27C429491C8FBB44002A4DC5 /* MessageViewController.h */,
 				27C4294A1C8FBB44002A4DC5 /* MessageViewController.m */,
+				27C429561C8FFA77002A4DC5 /* MyTabBar.h */,
+				27C429571C8FFA77002A4DC5 /* MyTabBar.m */,
 			);
 			path = MyWeico;
 			sourceTree = "<group>";
@@ -174,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C4295B1C8FFE4D002A4DC5 /* UIView+Extension.m in Sources */,
 				27C429421C8FBAB0002A4DC5 /* DiscoverViewController.m in Sources */,
 				27C4293F1C8FB98D002A4DC5 /* MyTabBarViewController.m in Sources */,
 				27C4292E1C8FB638002A4DC5 /* ViewController.m in Sources */,
@@ -181,6 +192,7 @@
 				27C429451C8FBABF002A4DC5 /* ProfileViewController.m in Sources */,
 				27C429481C8FBB32002A4DC5 /* HomeViewController.m in Sources */,
 				27C4294B1C8FBB44002A4DC5 /* MessageViewController.m in Sources */,
+				27C429581C8FFA77002A4DC5 /* MyTabBar.m in Sources */,
 				27C429281C8FB638002A4DC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyWeico/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuanwu.myweico.MyWeico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyWeico/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuanwu.myweico.MyWeico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -330,6 +344,7 @@
 				27C4293C1C8FB638002A4DC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

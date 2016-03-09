@@ -11,6 +11,7 @@
 #import "MessageViewController.h"
 #import "DiscoverViewController.h"
 #import "ProfileViewController.h"
+#import "MyTabBar.h"
 
 @implementation MyTabBarViewController
 
@@ -29,6 +30,9 @@
     
     ProfileViewController *profile = [ProfileViewController new];
     [self addChildVC:profile title:@"我" imageName:@"tabbar_profile" selectImageName:@"tabbar_profile_selected"];
+    
+    MyTabBar *myTabBar = [[MyTabBar alloc]init];
+    [self setValue:myTabBar forKey:@"tabBar"];
 }
 
 
