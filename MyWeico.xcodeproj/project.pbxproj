@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AB81191C9123A60010BB44 /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB81181C9123A60010BB44 /* NewFeatureViewController.m */; };
 		27C429281C8FB638002A4DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C429271C8FB638002A4DC5 /* main.m */; };
 		27C4292B1C8FB638002A4DC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C4292A1C8FB638002A4DC5 /* AppDelegate.m */; };
 		27C4292E1C8FB638002A4DC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C4292D1C8FB638002A4DC5 /* ViewController.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27AB81171C9123A60010BB44 /* NewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewController.h; sourceTree = "<group>"; };
+		27AB81181C9123A60010BB44 /* NewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewController.m; sourceTree = "<group>"; };
 		27C429231C8FB638002A4DC5 /* MyWeico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C429271C8FB638002A4DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27C429291C8FB638002A4DC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				27C4294A1C8FBB44002A4DC5 /* MessageViewController.m */,
 				27C429561C8FFA77002A4DC5 /* MyTabBar.h */,
 				27C429571C8FFA77002A4DC5 /* MyTabBar.m */,
+				27AB81171C9123A60010BB44 /* NewFeatureViewController.h */,
+				27AB81181C9123A60010BB44 /* NewFeatureViewController.m */,
 			);
 			path = MyWeico;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				27C4294B1C8FBB44002A4DC5 /* MessageViewController.m in Sources */,
 				27C429581C8FFA77002A4DC5 /* MyTabBar.m in Sources */,
 				27C429281C8FB638002A4DC5 /* main.m in Sources */,
+				27AB81191C9123A60010BB44 /* NewFeatureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MyTabBarViewController.h"
+#import "NewFeatureViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
     
     UIWindow *window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     MyTabBarViewController *tabBar = [MyTabBarViewController new];
-    window.rootViewController = tabBar;
+    window.rootViewController = [NewFeatureViewController new];
     [window makeKeyAndVisible];
     self.window = window;
     

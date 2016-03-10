@@ -10,4 +10,14 @@
 
 @implementation MessageViewController
 
+-(void)viewDidLoad
+{
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]init];
+    [rightButton setTitle:@"写私信"];
+    NSDictionary *dict = @{NSForegroundColorAttributeName:[UIColor orangeColor],NSFontAttributeName:[UIFont systemFontOfSize:17]};
+    [rightButton setTitleTextAttributes:dict forState:UIControlStateNormal];
+    self.navigationItem.rightBarButtonItem = rightButton;
+}
+
 @end

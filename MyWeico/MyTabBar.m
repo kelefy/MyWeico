@@ -33,9 +33,21 @@
 -(void)layoutSubviews
 {
     [super layoutSubviews];
-    self.plusButton.centerX = self.centerX;
-    self.plusButton.centerY = self.centerY;
-    NSLog(@"%@",self.plusButton);
+    self.plusButton.centerX = self.width/2.f;
+    self.plusButton.centerY = self.height/2.f;
+    NSLog(@"%@",self.subviews);
+    Class class = NSClassFromString(@"UITabBarButton");
+    NSInteger idx = 0;
+    for(UIView *view in self.subviews)
+    {
+        if ([view isKindOfClass:class]) {
+            view.x = idx++*self.width/5.f;
+        }
+        if(idx==2)
+        {
+            idx++;
+        }
+    }
 }
 
 @end
