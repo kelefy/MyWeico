@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewFeatureViewController : UIViewController
-
+@interface NewFeatureViewController : UIViewController<UIScrollViewDelegate>
+@property (nonatomic,weak) UIPageControl *pageControl;
 @end
